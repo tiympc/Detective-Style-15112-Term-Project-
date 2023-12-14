@@ -6,7 +6,7 @@ on:
   push:
     branches: ["master", "main"]
   schedule:
-    - cron: '55 23 * * *' # Sets Semgrep to scan every day at 17:20 UTC.
+    - cron: '35 11 * * *' # Sets Semgrep to scan every day at 17:20 UTC.
     
 permissions: 
     security-events: write
